@@ -30,6 +30,7 @@ struct Generator: View {
                             .keyboardType(.URL)
                             .textContentType(.URL)
                             .autocorrectionDisabled()
+                            .textInputAutocapitalization(.never)
                     } label: {
                         Text("URL")
                     }
